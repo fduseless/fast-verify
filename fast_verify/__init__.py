@@ -1,6 +1,6 @@
 import base64
 from functools import cache, cached_property
-from typing import ClassVar, Protocol, override, runtime_checkable
+from typing import ClassVar, Protocol, runtime_checkable
 from hmac import compare_digest, HMAC
 from hashlib import pbkdf2_hmac
 
